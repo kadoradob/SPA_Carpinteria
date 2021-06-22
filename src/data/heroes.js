@@ -1,162 +1,93 @@
 export const heroes = [
     {
-        'id': 'dc-batman',
-        'superhero':'Batman', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Bruce Wayne',
-        'first_appearance':'Detective Comics #27',
-        'characters':'Bruce Wayne'
-    },
-    {
-        'id': 'dc-superman',
-        'superhero':'Superman', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Kal-El',
-        'first_appearance':'Action Comics #1',
-        'characters':'Kal-El'
-    },
-    {
-        'id': 'dc-flash',
-        'superhero':'Flash', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Jay Garrick',
-        'first_appearance':'Flash Comics #1',
-        'characters':'Jay Garrick, Barry Allen, Wally West, Bart Allen'
-    },
-    {
-        'id': 'dc-green',
-        'superhero':'Green Lantern', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Alan Scott',
-        'first_appearance':'All-American Comics #16',
-        'characters':'Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz'
-    },
-    {
-        'id': 'dc-arrow',
-        'superhero':'Green Arrow', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Oliver Queen',
-        'first_appearance':'More Fun Comics #73',
-        'characters':'Oliver Queen'
-    },
-    {
-        'id': 'dc-wonder',
-        'superhero':'Wonder Woman', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Princess Diana',
-        'first_appearance':'All Star Comics #8',
-        'characters':'Princess Diana'
-    },
-    {
-        'id': 'dc-martian',
-        'superhero':'Martian Manhunter', 
-        'publisher':'DC Comics', 
-        'alter_ego':'J\'onn J\'onzz',
-        'first_appearance':'Detective Comics #225',
-        'characters':'Martian Manhunter'
-    },
-    {
-        'id': 'dc-robin',
-        'superhero':'Robin/Nightwing', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Dick Grayson',
-        'first_appearance':'Detective Comics #38',
-        'characters':'Dick Grayson'
-    },
-    {
-        'id': 'dc-blue',
-        'superhero':'Blue Beetle', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Dan Garret',
-        'first_appearance':'Mystery Men Comics #1',
-        'characters':'Dan Garret, Ted Kord, Jaime Reyes'
-    },
-    {
-        'id': 'dc-black',
-        'superhero':'Black Canary', 
-        'publisher':'DC Comics', 
-        'alter_ego':'Dinah Drake',
-        'first_appearance':'Flash Comics #86',
-        'characters':'Dinah Drake, Dinah Lance'
-    },
-    {
-        'id': 'marvel-spider',
-        'superhero':'Spider Man', 
+        'id': 'vertical-1',
+        'tipo':'Caldera Vertical',
+        'superhero':'Caldera Vertical 1', 
         'publisher':'Marvel Comics', 
-        'alter_ego':'Peter Parker',
-        'first_appearance':'Amazing Fantasy #15',
-        'characters':'Peter Parker'
+        'characters':'Capacidad de caldera BHP, BTU/HORA x 1000'
     },
     {
-        'id': 'marvel-captain',
-        'superhero':'Captain America', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Steve Rogers',
-        'first_appearance':'Captain America Comics #1',
-        'characters':'Steve Rogers'
+        'id': 'horizontales-LC-1',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':' No 1 CONTINENTAL 2 PASOS F10C-F15C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos F10C-F15C'
     },
     {
-        'id': 'marvel-iron',
-        'superhero':'Iron Man', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Tony Stark',
-        'first_appearance':'Tales of Suspense #39',
-        'characters':'Tony Stark'
+        'id': 'horizontales-LC-2',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':' Nº 2 CONTINENTAL 2 PASOS E52A20C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos E52A20C'
     },
     {
-        'id': 'marvel-thor',
-        'superhero':'Thor', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Thor Odinson',
-        'first_appearance':'Journey into Myster #83',
-        'characters':'Thor Odinson'
+        'id': 'horizontales-LC-3',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':' Nº 3 CONTINENTAL 2 PASOS E52C30C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos E52C30C'
     },
     {
-        'id': 'marvel-hulk',
-        'superhero':'Hulk', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Bruce Banner',
-        'first_appearance':'The Incredible Hulk #1',
-        'characters':'Bruce Banner'
+        'id': 'horizontales-LC-4',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':' Nº 4 CONTINENTAL 2 PASOS E62C40C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos E62C40C'
     },
     {
-        'id': 'marvel-wolverine',
-        'superhero':'Wolverine', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'James Howlett',
-        'first_appearance':'The Incredible Hulk #180',
-        'characters':'James Howlett'
+        'id': 'horizontales-LC-5',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':'Nº 5 CONTINENTAL 2 PASOS E62D50C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos E62D50C'
     },
     {
-        'id': 'marvel-daredevil',
-        'superhero':'Daredevil', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Matthew Michael Murdock',
-        'first_appearance':'Daredevil #1',
-        'characters':'Matthew Michael Murdock'
+        'id': 'horizontales-LC-6',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':'Nº 6 CONTINENTAL 2 PASOS E72A60C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos E72A60C'
     },
     {
-        'id': 'marvel-hawkeye',
-        'superhero':'Hawkeye', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Clinton Francis Barton',
-        'first_appearance':'Tales of Suspense #57',
-        'characters':'Clinton Francis Barton'
+        'id': 'horizontales-LC-7',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':'Nº 7 CONTINENTAL 2 PASOS E72B70', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos E72B70'
     },
     {
-        'id': 'marvel-cyclops',
-        'superhero':'Cyclops', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Scott Summers',
-        'first_appearance':'X-Men #1',
-        'characters':'Scott Summers'
+        'id': 'horizontales-LC-8',
+        'tipo': 'horizontales LC Modelos F Calderas de 2 Pasos',
+        'superhero':'Nº 8 CONTINENTAL 2 PASOS F82C80C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 2 Pasos F82C80C'
     },
     {
-        'id': 'marvel-silver',
-        'superhero':'Silver Surfer', 
-        'publisher':'Marvel Comics', 
-        'alter_ego':'Norrin Radd',
-        'first_appearance':'The Fantastic Four #48',
-        'characters':'Norrin Radd'
+        'id': 'horizontales-LC-9',
+        'tipo': 'horizontales LC Modelos F Calderas de 3 Pasos',
+        'superhero':'No 1 CONTINENTAL 3 PASOS E63B40C', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 3 Pasos E63B40C'
+    },
+    {
+        'id': 'horizontales-LC-10',
+        'tipo': 'horizontales LC Modelos F Calderas de 3 Pasos',
+        'superhero':'No 2 CONTINENTAL 3 PASOS E83A60', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 3 Pasos E83A60'
+    },
+    {
+        'id': 'horizontales-LC-11',
+        'tipo': 'horizontales LC Modelos F Calderas de 3 Pasos',
+        'superhero':'No 3 CONTINENTAL 3 PASOS E83B70', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 3 Pasos E83B70'
+    },
+    {
+        'id': 'horizontales-LC-12',
+        'tipo': 'horizontales LC Modelos F Calderas de 3 Pasos',
+        'superhero':'No 4 CONTINENTAL 3 PASOS F83D80', 
+        'publisher':'DC Comics', 
+        'characters':'Modelos F Calderas de 3 Pasos F83D80'
     }
 ]

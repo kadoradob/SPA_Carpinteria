@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link, NavLink, useHistory } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
 import { types } from "../types/types";
+import logo from "../../logos/logo.jpg";
 
 export const Navbar = () => {
   const { dispatch } = useContext(AuthContext);
@@ -24,49 +25,55 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-      <Link className="navbar-brand" to="/">
-        Asociaciones
+    <nav className="flex flex-wrap items-center p-2 bg-white shadow-md">
+      <Link className="inline-flex items-center p-2 mr-4" to="/">
+        <img src={logo} alt="logo" className="h-16"/>
       </Link>
-
-      <div className="navbar-collapse">
-        <div className="navbar-nav">
+      {/* Menu responsive */}
+      <button className="inline-flex p-3 ml-auto text-black rounded outline-none hover:bg-red-500 lg:hidden hover:text-white nav-toggler" data-target="#navigation">
+        <i className="material-icons">menu</i>
+      </button>
+      <div
+        className="hidden w-full top-navbar lg:inline-flex lg:flex-grow lg:w-auto"
+        id="navigation"
+      >
+        <div className="flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto">
           <NavLink
-            activeClassName="active"
-            className="nav-item nav-link"
+            activeclassName="active"
+            className="items-center justify-center w-full px-3 py-2 text-black no-underline rounded lg:inline-flex lg:w-auto hover:bg-red-600 hover:text-white"
             exact
             to="/marvel"
           >
-            Marvel
+            Vertical
           </NavLink>
 
           <NavLink
-            activeClassName="active"
-            className="nav-item nav-link"
+            activeclassName="active"
+            className="items-center justify-center w-full px-3 py-2 text-black no-underline rounded lg:inline-flex lg:w-auto hover:bg-red-600 hover:text-white"
             exact
-            to="/dc"
+            to="/horizontalesLC"
           >
-            DC
+            horizontalesLC
           </NavLink>
 
           <NavLink
-            activeClassName="active"
-            className="nav-item nav-link"
+            activeclassName="active"
+            className="items-center justify-center w-full px-3 py-2 text-black no-underline rounded lg:inline-flex lg:w-auto hover:bg-red-600 hover:text-white"
+            exact
+            to="/horizontalesHC"
+          >
+            horizontalesHC
+          </NavLink>
+          
+          <NavLink
+            activeclassName="active"
+            class="flex no-underline items-center justify-center w-6 h-6 px-4 py-4 font-bold text-red-600 transition duration-300 ease-in-out transform bg-red-200 rounded-full shadow-lg lg:mx-0 focus:outline-none focus:shadow-outline hover:bg-red-500 hover:text-white hover:scale-105 mx-4"
             exact
             to="/search"
           >
-            Search
+            <i class="fas fa-search"></i>
           </NavLink>
         </div>
-      </div>
-
-      <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-        <ul className="navbar-nav ml-auto">
-          <p className="nav-item nav-link text-info"> Hola {name} </p>
-          <button className="nav-item nav-link btn" onClick={handleLogout}>
-            Logout
-          </button>
-        </ul>
       </div>
     </nav>
   );

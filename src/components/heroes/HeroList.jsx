@@ -6,7 +6,7 @@ export const HeroList = ({ publisher }) => {
   const heroes = getHeroBypublisher(publisher);
 
   return (
-    <div className="card-columns animate__animated animate__fadeIn">
+    <div className="flex flex-row flex-wrap justify-around items-center content-center">
       {heroes.map((hero) => (
         <HeroCard key={hero.id} {...hero} />
       ))}
